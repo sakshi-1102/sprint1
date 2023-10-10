@@ -1,0 +1,151 @@
+* {
+    border: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", serif;
+  }
+  
+  #section-1 {
+    height: 100vh;
+    background-color: #C8F192 #4F8216;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-us {
+    width: 50%;
+    padding: 10px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-us h1 {
+    color: #333;
+    font-size: 38px;
+    margin-top: -60px;
+    margin-bottom: 40px;
+  }
+  .about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .image img {
+    width: 80%;
+    margin-left: 40px;
+    align-self: center;
+  }
+  
+  .image {
+    width: 50%;
+  }
+  
+  #section-2 {
+    height: 500px;
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color:  #C8F192;
+  }
+  
+  span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    margin: 40px 0px;
+  }
+  
+  .grid-item {
+    width: 90%;
+    padding: 14px 30px;
+  }
+  
+  .icons {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .grid-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item p {
+    width: 70%;
+  }
+  
+  .youtube-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #a0e0d5;
+  }
+  
+  .youtube-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .youtube-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .youtube-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .youtube-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .youtube-button {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #abt-logo {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    mix-blend-mode: multiply;
+  }
+  
+  @media (max-width: 767px) {
+    .about-us {
+      width: 100%;
+      padding: 0px;
+    }
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+    .image {
+      display: none;
+    }
+  
+    .grid-item p {
+      width: 100%;
+    }
+  }
